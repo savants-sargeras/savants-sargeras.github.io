@@ -65,3 +65,9 @@ typings/
 
 # Serverless directories
 .serverless
+
+# Cloud 9
+.c9
+
+# package-lock
+package-lock.json
