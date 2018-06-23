@@ -71,3 +71,7 @@ typings/
 
 # package-lock
 package-lock.json
+
+#notes
+/notes
+

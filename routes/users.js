@@ -7,4 +7,10 @@ router.get('/', function(req, res, next) {
   res.send({name:config.admin.name});
 });
 
+router.get('/test', function(req, res, next) {
+  // GET/users/ route
+  // res.send({name:config.admin.name});
+  console.log(res);
+});
+
 module.exports = router;

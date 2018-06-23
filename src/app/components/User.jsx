@@ -8,7 +8,8 @@ class User extends Component {
     this.state = {
       user: {
         name: ''
-      }
+      },
+      hidden: this.props.hidden
     }
     this.fetchUsers = this.fetchUsers.bind(this);
   }
@@ -30,6 +31,16 @@ class User extends Component {
   }
 
   render() {
+    // if(this.state.hidden){
+    //   return(
+    //     <div>hidden</div>
+    //   )
+    // }
+    // else{
+    //   return(
+    //     <div>shown</div>
+    //   )
+    // }
     return (
       <div className="user">
         <h1>Hello {this.state.user.name}</h1>
